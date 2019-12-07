@@ -27,6 +27,6 @@ def chi2_to_sigma(chi2, df):
     return sigma
 
 
-chi2, df = sys.argv
+chi2, df = [float(i) for i in sys.argv[1:]]
 sigma = chi2_to_sigma(chi2, df)
-print('(chi2: {}, df: {}): --- > sigma: {}'.format(chi2, df, sigma))
+print('[chi2: {}, df: {}]: === >> sigma: {}'.format(chi2, df, sigma))

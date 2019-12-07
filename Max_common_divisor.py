@@ -4,9 +4,10 @@
 @Email: weicc1989@gmail.com
 @Date: 2019-11-05 17:34:18
 @LastEditTime: 2019-11-05 17:45:44
-@Description: 
+@Description:
 @FilePath: /python/Max_common_divisor.py
 '''
+
 
 def max_common_divisor(a, b):
 
@@ -27,4 +28,6 @@ def max_common_divisor(a, b):
 
     return mcd(a, b)
 
-max_common_divisor(12, 40)
+
+res = max_common_divisor(12, 40)
+print(res)
